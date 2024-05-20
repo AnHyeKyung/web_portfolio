@@ -37,9 +37,26 @@
 }
 .title_1 {
   padding-top: 20px;
+  padding-left: 20px;
   li {
+    position: relative;
     padding-top: 10px;
+    &::before {
+      position: absolute;
+      left: -10px;
+      content: "";
+      top: 20px;
+      border-radius: 1px;
+      width: 4px;
+      height: 4px;
+      background-color: #555;
+      display: block;
+      margin-left: 1px;
+    }
   }
+}
+.title_list {
+  padding-top: 30px;
 }
 .title_2 {
   padding-top: 20px;
@@ -47,6 +64,11 @@
   gap: 20px;
   li {
     padding-top: 10px;
+  }
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -63,8 +85,8 @@
 .video_title {
   position: absolute;
   color: white;
-  left: 43vw;
-  top: 18vh;
+  left: 44vw;
+  top: 15vh;
   font-size: 50px;
   opacity: 0.7;
 }
@@ -73,4 +95,11 @@
   aspect-ratio: 16/2;
   object-fit: cover;
   margin-bottom: 100px;
+}
+.career {
+  border-left-width: 5px;
+  border-radius: 5px;
+  border-left-style: solid;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }

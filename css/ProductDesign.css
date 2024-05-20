@@ -4,19 +4,32 @@
   padding: 20px;
 }
 .script {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  li {
-    padding-top: 10px;
-  }
+  text-align: center;
 }
 .big_logo img {
-  width: 440px;
-  height: 300px;
+  width: 560px;
+  height: 400px;
 }
-.product {
+.big_script {
+  li {
+    text-align: start;
+  }
+  h1 {
+    padding-top: 50px;
+  }
   img {
+    margin-top: 50px;
+    height: 600px;
+    border: 1px solid lightgray;
+  }
+}
+
+.product {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  img {
+    width: 700px;
   }
 }
 .video {
@@ -24,4 +37,18 @@
   aspect-ratio: 16/2;
   object-fit: cover;
   margin-bottom: 100px;
+}
+.video_title {
+  position: absolute;
+  color: white;
+  left: 42vw;
+  top: 15vh;
+  font-size: 50px;
+  opacity: 0.7;
+}
+.logo_font {
+  img {
+    width: 800px;
+    height: 80px;
+  }
 }

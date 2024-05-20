@@ -13,7 +13,11 @@
     text-align: left;
   }
 }
-h1 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.video_title {
+  position: absolute;
+  color: white;
+  left: 43vw;
+  top: 17vh;
+  font-size: 50px;
+  opacity: 0.7;
 }

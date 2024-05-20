@@ -1,0 +1,19 @@
+.video {
+  width: 100%;
+  aspect-ratio: 16/2;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+.main_wrap {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+  li,
+  h1 {
+    text-align: left;
+  }
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

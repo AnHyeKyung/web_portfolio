@@ -1,0 +1,27 @@
+.main_wrap {
+  width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.script {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  li {
+    padding-top: 10px;
+  }
+}
+.big_logo img {
+  width: 440px;
+  height: 300px;
+}
+.product {
+  img {
+  }
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16/2;
+  object-fit: cover;
+  margin-bottom: 100px;
+}

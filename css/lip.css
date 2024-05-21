@@ -1,9 +1,9 @@
-.video {
+/*.video {
   width: 100%;
   aspect-ratio: 16/2;
   object-fit: cover;
   margin-bottom: 100px;
-}
+}*/
 .main_wrap {
   width: 1600px;
   margin: 0 auto;
@@ -13,11 +13,11 @@
     text-align: left;
   }
 }
-.video_title {
+/*.video_title {
   position: absolute;
   color: white;
   left: 43vw;
   top: 17vh;
   font-size: 50px;
   opacity: 0.7;
-}
+}*/

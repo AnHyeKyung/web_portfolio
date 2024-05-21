@@ -99,3 +99,22 @@ footer {
   font-size: 12px;
   margin-top: 5rem;
 }
+
+.video_wrap {
+  position: relative;
+  margin-bottom: 100px;
+}
+.video_title {
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  opacity: 0.7;
+}
+.video {
+  width: 100%;
+  aspect-ratio: 16/2;
+  object-fit: cover;
+}

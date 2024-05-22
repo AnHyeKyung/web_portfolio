@@ -47,7 +47,6 @@ header {
 .gnb {
   font-weight: 700;
   text-align: center;
-  width: 500px;
   margin: 1rem;
   display: flex;
   justify-content: center;
@@ -59,15 +58,16 @@ header {
   > li {
     position: relative;
     padding: 0 50px;
+    > a {
+      display: block;
+      /* white-space: nowrap; */
+    }
     &:hover {
       > a {
         color: #666;
         text-decoration: underline;
       }
     }
-  }
-  > a {
-    display: block;
   }
 }
 .depth2 {

@@ -45,9 +45,11 @@
   }
 }
 .product {
+  text-align: start;
   padding-top: 50px;
   .product_1 {
     display: flex;
+    justify-content: center;
     gap: 10px;
     img {
       width: 350px;
@@ -55,17 +57,21 @@
     }
   }
   .product_2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
     img {
-      width: auto;
-    }
-  }
-  .product_3 {
-    img {
-      width: 250px;
+      height: 270px;
     }
   }
 }
-
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
 .squere {
   border: 1px solid lightgray;
   display: grid;
@@ -118,6 +124,6 @@
   margin: 30px 0;
   padding-top: 50px;
 }
-.test {
+.caption {
   display: block;
 }
